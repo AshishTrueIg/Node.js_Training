@@ -1,5 +1,6 @@
 
-const fs=require('fs')
+const fs = require('fs')
+const os = require('os')
 
 // fs.writeFileSync("./test.txt","I write this file using synchronous fs module")
 
@@ -19,4 +20,5 @@ fs.readFile("./test.txt","utf-8",(err,result)=>{
     }
 })
 
-console.log(fs.statSync("./test.txt"));
+// console.log(fs.statSync("./test.txt"));
+console.log(os.type())

@@ -1,0 +1,1 @@
+I write this file using synchronous fs module

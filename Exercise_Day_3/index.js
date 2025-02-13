@@ -14,6 +14,8 @@ app.post('/data',(req,res)=>{
     res.json({message : "Data added successfully",Data: newData});
 })
 
+
+//Routes created using Route parameters
 app.put('/data/:id',(req,res)=>{
     const {id}= req.params;
     const updatedData = req.body;

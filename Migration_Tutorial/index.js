@@ -2,9 +2,9 @@ import express from 'express'
 import bodyParser from 'body-parser';
 const app = express();
 const PORT = 8000;
-import User from './models/user.js';
 import UserController from './controllers/userController.js'
-import Contact from './models/contact.js';
+import './models/index.js'
+
 
 app.use(bodyParser.json())
 
@@ -26,9 +26,12 @@ app.put('/users/:id',UserController.putUserData)
 
 app.patch('/users/:id', UserController.patchUser)
 
-User.sync({ force: false })
+
+app.get('/one-to-one',UserController.oneToOneUser);
+
+// User.sync({ force: false })
 // User.sync({ alter: true })
-Contact.sync({ force : true })
+// Contact.sync({ force : true })
 
 app.listen(PORT,()=>{
     console.log(`Server is running on PORT : ${PORT}`)

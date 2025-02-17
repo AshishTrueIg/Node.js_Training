@@ -1,0 +1,15 @@
+{
+  "name": "exercise_day_4",
+  "version": "1.0.0",
+  "main": "Custom_Middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "express": "^4.21.2"
+  }
+}

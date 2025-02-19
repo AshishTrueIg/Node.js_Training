@@ -1,0 +1,27 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"3.613\"}","timestamp":"2025-02-18T18:37:53.241Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/about\",\"status\":\"200\",\"responseTime\":\"0.666\"}","timestamp":"2025-02-18T18:38:04.595Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-18T18:40:45.940Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:40:45.943Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:40:45.944Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/about\",\"status\":\"304\",\"responseTime\":\"7.994\"}","timestamp":"2025-02-18T18:40:45.949Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"3.502\"}","timestamp":"2025-02-18T18:41:57.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-18T18:43:16.160Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:43:16.163Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:43:16.166Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/about\",\"status\":\"304\",\"responseTime\":\"11.307\"}","timestamp":"2025-02-18T18:43:16.175Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-18T18:44:40.235Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:44:40.236Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:44:40.236Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/about\",\"status\":\"304\",\"responseTime\":\"2.092\"}","timestamp":"2025-02-18T18:44:40.238Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-18T18:44:59.073Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:44:59.075Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:44:59.076Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:45:41.910Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:45:41.913Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-18T18:48:04.760Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-18T18:48:04.764Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-18T18:48:04.764Z"}
+{"level":"\u001b[34mdebug\u001b[39m","message":"This is a debug message","timestamp":"2025-02-18T18:48:04.765Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"This is an info message","timestamp":"2025-02-19T04:14:54.270Z"}
+{"level":"\u001b[31merror\u001b[39m","message":"This is an error message","timestamp":"2025-02-19T04:14:54.273Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"This is a warning message","timestamp":"2025-02-19T04:14:54.274Z"}

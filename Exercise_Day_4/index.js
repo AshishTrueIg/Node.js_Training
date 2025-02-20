@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const validateRequest = require('./Validator.js');
 const products = require('./Products.js');
@@ -14,7 +13,6 @@ const findProductById = (id) => products.find((p) => p.id === id);
 app.get('/products', (req, res) => {
   res.status(200).json(products);
 });
-
 
 app.get('/products/:id', (req, res) => {
   const productId = parseInt(req.params.id);
@@ -47,10 +45,9 @@ app.put('/products/:id', validateRequest, (req, res) => {
     return res.status(404).json({ message: "Product not found" });
   }
 
-  Object.assign(product, req.body); // Update the product
+  Object.assign(product, req.body);
   res.status(200).json(product);
 });
-
 
 app.delete('/products/:id', (req, res) => {
   const productId = parseInt(req.params.id);

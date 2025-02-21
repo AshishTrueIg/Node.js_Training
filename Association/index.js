@@ -28,6 +28,13 @@ app.patch('/users/:id', UserController.patchUser)
 
 app.get('/one-to-one',UserController.oneToOneUser);
 
+app.get('/one-to-many',UserController.oneToManyUser);
+
+app.get('/many-to-one',UserController.manyToOneUser);
+
+app.get('/many-to-many',UserController.manyToManyUser);
+
+
 app.listen(PORT,()=>{
     console.log(`Server is running on PORT : ${PORT}`)
 })

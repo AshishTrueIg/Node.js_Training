@@ -77,4 +77,51 @@ const oneToOneUser = async (req,res)=>{
     res.status(200).json({data:data})
 }
 
-module.exports = {addUser , getUser , getUserById , postUsers , deleteUser , patchUser , putUserData , oneToOneUser};
+const oneToManyUser = async (req,res)=>{
+    // var data = await Contact.create({permanent_address:"Delhi",current_address:"BurjKhaleefa",user_id:1})
+    // res.status(200).json({data:data})
+
+    var data = await User.findAll({
+        include:Contact,
+    })
+    res.status(200).json({data:data})
+}
+
+const manyToOneUser = async (req,res)=>{
+    var data = await Contact.findAll({
+        include: [{
+            model:User,
+            attributes:['firstName','lastName']
+        }]
+        // where:{id:1}
+    })
+    res.status(200).json({data:data})
+}
+
+const manyToManyUser = async (req,res)=>{
+    // var data = await User.create({firstName:"Ramnath" , lastName:"kovind"});
+    // if(data && data.id)
+    // {
+    //     await Contact.create({permanent_address:"Patodi",current_address:"Ranchi"})
+    // }
+    var data = await Contact.findAll({
+        attributes : ['permanent_address','current_address'],
+        include: [{
+            model:User,
+            attributes:['firstName','lastName']
+        }]
+        // where:{id:1}
+    })
+
+    // var data = await User.findAll({
+    //     attributes:['firstName','lastName'],
+    //     include: [{
+    //         model:Contact,
+    //         attributes : ['permanent_address','current_address'],
+            
+    //     }]
+    // })
+    res.status(200).json({data:data})
+}
+
+module.exports = {addUser , getUser , getUserById , postUsers , deleteUser , patchUser , putUserData , oneToOneUser , oneToManyUser ,manyToOneUser ,manyToManyUser};
